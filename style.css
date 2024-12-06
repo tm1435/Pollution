@@ -13,7 +13,7 @@ line-height:150%;
 margin-right:auto;
 margin-left:auto;
 margin-top:25px;
-background-color:#65E332;
+background-color:#14C1C7;
 font-family: 'Crimson Text', serif;
 }
 
@@ -71,12 +71,12 @@ outline:0;
 
 nav li:hover 
 {  
-background-color:lightblue;
+background-color:lightgreen;
 }
 
 nav a:hover 
 {  
-color:black;
+color:white;
 }
 
 article
@@ -84,7 +84,7 @@ article
 float:left;
 width:70%;
 padding:1% 3%;
-background-color:#adc2eb;
+background-color:#3DC905;
 font-family: Garamond, serif;
 font-size:18px;
 }
