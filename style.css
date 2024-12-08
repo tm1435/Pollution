@@ -4,18 +4,18 @@ background-image:url("background.jpg");
 background-size:cover;
 }
 
-/* Ensure all images within <header> tags have a consistent size */
+
 header img {
-  width: 100%; /* Makes the image span the full width of its container */
-  max-height: 200px; /* Adjust the maximum height as needed */
-  height: auto; /* Maintain aspect ratio */
-  object-fit: cover; /* Ensures the image covers the given area without distortion */
+  width: 100%;
+  max-height: 200px; 
+  height: auto; 
+  object-fit: cover; 
 }
 
 div.container
 {
 width:85%;
-border:1px solid gray;
+border:1px solid green;
 line-height:150%;
 margin-right:auto;
 margin-left:auto;
@@ -78,12 +78,12 @@ outline:0;
 
 nav li:hover 
 {  
-background-color:lightgrey;
+background-color:lightgreen;
 }
 
 nav a:hover 
 {  
-color:white;
+color:lightgrey;
 }
 
 article
@@ -136,9 +136,9 @@ p{
 }
 
 .para1{
-	color: blue;
+	color: black;
 }
 
 .para2{
-	color: blue;
+	color: black;
 }
