@@ -4,13 +4,13 @@ background-image:url("background.jpg");
 background-size:cover;
 }
 
-banner {
-  width: 100%; 
-  max-height: 50px;
-  object-fit: cover;
-  margin-bottom: 20px; 
+/* Ensure all images within <header> tags have a consistent size */
+header img {
+  width: 100%; /* Makes the image span the full width of its container */
+  max-height: 400px; /* Adjust the maximum height as needed */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensures the image covers the given area without distortion */
 }
-
 
 div.container
 {
